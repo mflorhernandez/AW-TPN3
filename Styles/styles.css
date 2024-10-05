@@ -1,0 +1,101 @@
+/* Fondo y fuente */
+body {
+    background-color: #f8e3f1; /* Fondo en un lila claro */
+    font-family: 'Poppins', sans-serif; /* Fuente juvenil */
+    color: #333;
+    
+}
+
+.fondoBody{
+    text-align: center;
+}
+/* Barra de navegación */
+.navbar {
+    background-color: #7b1fa2; /* Púrpura oscuro */
+}
+
+.navbar .btn {
+    margin-right: 15px;
+}
+
+/* Botones */
+.btn-light {
+    color: #7b1fa2;
+    background-color: #fff;
+    border-color: #7b1fa2;
+}
+
+.btn-login {
+    background-color: #4caf50; /* Verde */
+    border-color: #4caf50; /* Verde */
+    color: #fff;
+}
+
+.btn-logout {
+    background-color: #f44336; /* Rojo */
+    border-color: #f44336; /* Rojo */
+    color: #fff;
+}
+
+/* Estilos del contenido colapsable */
+.bg-dark {
+    background-color: #7b1fa2 !important; /* Fondo púrpura para secciones colapsables */
+}
+
+/* Centrando el logo */
+.centered-logo img {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: auto;
+}
+
+/* Fondo para el cuerpo */
+.fondoBody {
+    background-color: #f8e3f1; /* Fondo lila claro */
+    padding: 50px 0;
+}
+
+/* Encabezado */
+h1 {
+    color: #6a1b9a; /* Título en púrpura */
+    font-size: 36px;
+}
+
+/* Cambiando la fuente del párrafo */
+p {
+    color: #555;
+    font-size: 18px;
+}
+
+/* Categorías */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #ff69b4; /* Hover en rosado claro */
+}
+
+.card {
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 20px; /* Espaciado entre tarjetas */
+}
+.card-img-top {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.centradoBoton{
+    display: flex;
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; 
+}

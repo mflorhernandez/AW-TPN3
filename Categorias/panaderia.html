@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda - Categoría 2</title> <!-- Cambié el título para reflejar la categoría -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="../Styles/styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        
+        <div class="container-fluid">
+       
+          <!-- Botón de menú desplegable -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                  <!-- Botones a la derecha -->
+      <div class="d-flex justify-content-end p-2">
+        <a class="btn btn-light me-2" href="../index.html">Home</a>
+        <a type="button" class="btn btn-success" href="../login.html">Login</a>
+        <a type="button" class="btn btn-danger" href="../login.html">Logout</a>
+      </div>
+        </div>
+      
+      </nav>
+    
+      <!-- Contenido colapsable -->
+      <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+        <div class="bg-dark p-4">
+          <h5 class="text-body-emphasis h4">Categorías</h5>
+          <ul class="list-unstyled">
+            <li><a class="text-body-secondary" href="./pasteleria.html">Pastelería</a></li>
+            <li><a class="text-body-secondary" href="./panaderia.html">Panaderia</a></li>
+            <li><a class="text-body-secondary" href="./accesoriascocina.html">Accesorios de cocina</a></li>
+          </ul>
+        </div>
+      </div>
+    
+      <h1>Panadería</h1> 
+      <p>Aquí encontrarás productos de Panadería.</p> 
+      
+    <div class="card-group">
+        <div class="card">
+          <img src="../assets/pan lactal.webp" class="card-img-top" alt="Pan lactal">
+          <div class="card-body">
+            <h5 class="card-title">Pan Lactal</h5>
+            <p class="card-text">Este suave y esponjoso pan es ideal para el desayuno o merienda. Perfecto para preparar sándwiches o tostadas, su sabor ligero y su textura tierna.</p>
+          </div>
+          <div class="card-footer centradoBoton"> 
+            <div class="counter-container d-flex justify-content-between align-items-center w-100">
+                <div class="d-flex align-items-center"> 
+                    <button class="counter-btn" onclick="decrease()">-</button>
+                    <span id="counter" class="mx-2">0</span> 
+                    <button class="counter-btn" onclick="increase()">+</button>
+                </div>
+                <span class="font-weight-bold">Precio: $10.00</span> 
+            </div>
+        </div>
+        
+        </div>
+        <div class="card">
+          <img src="../assets/criollitos.webp" class="card-img-top" alt="Criollitos">
+          <div class="card-body">
+            <h5 class="card-title">Criolllitos</h5>
+            <p class="card-text">Pequeños y dorados, los criollitos son ideales para acompañar el mate o cualquier merienda. Su textura crujiente y su sabor ligeramente salado los convierten en un bocado irresistible..</p>
+          </div>
+          <div class="card-footer centradoBoton"> 
+            <div class="counter-container d-flex justify-content-between align-items-center w-100">
+                <div class="d-flex align-items-center"> 
+                    <button class="counter-btn" onclick="decrease()">-</button>
+                    <span id="counter" class="mx-2">0</span> 
+                    <button class="counter-btn" onclick="increase()">+</button>
+                </div>
+                <span class="font-weight-bold">Precio: $10.00</span> 
+            </div>
+        </div>
+        </div>
+        <div class="card">
+          <img src="../assets/facturas.webp" class="card-img-top" alt="Facturas">
+          <div class="card-body">
+            <h5 class="card-title">Facturas</h5>
+            <p class="card-text">Las facturas son una variedad de dulces de masa hojaldrada, perfectas para cualquier ocasión. Con rellenos que van desde dulce de leche hasta crema pastelera, son el complemento ideal para un buen café.</p>
+          </div>
+          <div class="card-footer centradoBoton"> 
+            <div class="counter-container d-flex justify-content-between align-items-center w-100">
+                <div class="d-flex align-items-center"> 
+                    <button class="counter-btn" onclick="decrease()">-</button>
+                    <span id="counter" class="mx-2">0</span> 
+                    <button class="counter-btn" onclick="increase()">+</button>
+                </div>
+                <span class="font-weight-bold">Precio: $10.00</span> 
+            </div>
+        </div>
+      </div>
+    
+      <div class="card-group">
+        <div class="card">
+          <img src="../assets/medialunas.webp" class="card-img-top" alt="Medialunas">
+          <div class="card-body">
+            <h5 class="card-title">Medialunas</h5>
+            <p class="card-text">Estas delicadas y hojaldradas medialunas son un clásico en la repostería. Con un sabor ligeramente dulce y una textura crujiente por fuera y suave por dentro, son perfectas para disfrutar con una taza de café o chocolate caliente.</p>
+          </div>
+          <div class="card-footer centradoBoton"> 
+            <div class="counter-container d-flex justify-content-between align-items-center w-100">
+                <div class="d-flex align-items-center"> 
+                    <button class="counter-btn" onclick="decrease()">-</button>
+                    <span id="counter" class="mx-2">0</span> 
+                    <button class="counter-btn" onclick="increase()">+</button>
+                </div>
+                <span class="font-weight-bold">Precio: $10.00</span> 
+            </div>
+        </div>
+        </div>
+        <div class="card">
+          <img src="../assets/pan frances.webp" class="card-img-top" alt="Pan frances">
+          <div class="card-body">
+            <h5 class="card-title">Pan Francés</h5>
+            <p class="card-text">Con su corteza dorada y crujiente, el pan francés es perfecto para acompañar comidas o disfrutar solo. Su miga suave y aireada lo hace ideal para sándwiches gourmet y tostadas.</p>
+          </div>
+          <div class="card-footer centradoBoton"> 
+            <div class="counter-container d-flex justify-content-between align-items-center w-100">
+                <div class="d-flex align-items-center"> 
+                    <button class="counter-btn" onclick="decrease()">-</button>
+                    <span id="counter" class="mx-2">0</span> 
+                    <button class="counter-btn" onclick="increase()">+</button>
+                </div>
+                <span class="font-weight-bold">Precio: $10.00</span> 
+            </div>
+        </div>
+        </div>
+        <div class="card">
+          <img src="../assets/pan integral.webp" class="card-img-top" alt="Pan Integral">
+          <div class="card-body">
+            <h5 class="card-title">Pan Integral</h5>
+            <p class="card-text">Hecho con harina integral, este pan es una opción saludable que ofrece un alto contenido de fibra y nutrientes. Su sabor robusto y su textura densa lo hacen ideal para acompañar ensaladas o como base para sándwiches nutritivos.</p>
+          </div>
+          <div class="card-footer centradoBoton"> 
+            <div class="counter-container d-flex justify-content-between align-items-center w-100">
+                <div class="d-flex align-items-center"> 
+                    <button class="counter-btn" onclick="decrease()">-</button>
+                    <span id="counter" class="mx-2">0</span> 
+                    <button class="counter-btn" onclick="increase()">+</button>
+                </div>
+                <span class="font-weight-bold">Precio: $10.00</span> 
+            </div>
+        </div>
+      </div>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
