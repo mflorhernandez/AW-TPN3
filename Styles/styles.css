@@ -1,24 +1,24 @@
-/* Fondo y fuente */
+
 body {
-    background-color: #f8e3f1; /* Fondo en un lila claro */
+    background-color: #f8e3f1; 
     font-family: 'Poppins', sans-serif; 
     color: #845ec2;
     
 }
 
 body.bodyLogin {
-    display: flex; /* Usar flexbox */
-    flex-direction: column; /* Alinear elementos en columna */
-    justify-content: center; /* Centrar verticalmente */
-    align-items: center; /* Centrar horizontalmente */
-    height: 100vh; /* Usar la altura completa de la ventana */
-    margin: 0; /* Eliminar margenes */
-    background-color: #f8e3f1; /* Fondo lila claro */
-    font-family: 'Poppins', sans-serif; /* Fuente juvenil */
-    color: #845ec2; /* Color del texto */
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    background-color: #f8e3f1; 
+    font-family: 'Poppins', sans-serif; 
+    color: #845ec2; 
 }
 input[type="email"], input[type="password"], input[type="nombre"], input[type="apellido"]  {
-    width: 90%; /* Ancho de los inputs */
+    width: 90%; 
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -26,9 +26,9 @@ input[type="email"], input[type="password"], input[type="nombre"], input[type="a
     box-sizing: border-box;
 }
 .btnInicio {
-    width: 90%; /* Ancho del botón */
+    width: 90%; 
     padding: 10px;
-    background-color: #4caf50; /* Verde */
+    background-color: #4caf50; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -42,7 +42,7 @@ input[type="email"], input[type="password"], input[type="nombre"], input[type="a
 }
 /* Barra de navegación */
 .navbar {
-    background-color: #845ec2; /* Púrpura oscuro */
+    background-color: #845ec2; 
 }
 
 .navbar .btn {
@@ -57,20 +57,20 @@ input[type="email"], input[type="password"], input[type="nombre"], input[type="a
 }
 
 .btn-login {
-    background-color: #4caf50; /* Verde */
-    border-color: #4caf50; /* Verde */
+    background-color: #4caf50; 
+    border-color: #4caf50; 
     color: #fff;
 }
 
 .btn-logout {
-    background-color: #f44336; /* Rojo */
-    border-color: #f44336; /* Rojo */
+    background-color: #f44336; 
+    border-color: #f44336; 
     color: #fff;
 }
 
-/* Estilos del contenido colapsable */
+/
 .bg-dark {
-    background-color: #845ec2 !important; /* Fondo púrpura para secciones colapsables */
+    background-color: #845ec2 !important; 
 }
 
 /* Centrando el logo */
@@ -83,13 +83,13 @@ input[type="email"], input[type="password"], input[type="nombre"], input[type="a
 
 /* Fondo para el cuerpo */
 .fondoBody {
-    background-color: #f8e3f1; /* Fondo lila claro */
+    background-color: #f8e3f1; 
     padding: 50px 0;
 }
 
 /* Encabezado */
 h1 {
-    color:#2e126d; /* Título en púrpura */
+    color:#2e126d; 
     font-size: 36px;
 }
 
@@ -111,7 +111,7 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #d9e8ee; /* Hover en rosado claro */
+    color: #d9e8ee; 
 }
 
 .card {
@@ -127,25 +127,25 @@ ul li a:hover {
 
 .centradoBoton{
     display: flex;
-    justify-content: space-between; /* Espacio entre elementos */
+    justify-content: space-between;  
     align-items: center; 
 }
 
 /* Contenedor del formulario de login */
 .login-container {
-    background-color: #f8e3f1; /* Fondo en un lila claro */
-    font-family: 'Poppins', sans-serif; /* Fuente juvenil */
+    background-color: #f8e3f1; 
+    font-family: 'Poppins', sans-serif; 
     color: #845ec2;
-    display: flex; /* Añadir flexbox */
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    height: 100vh; /* Altura completa de la ventana */
-    margin: 0; /* Eliminar margenes */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
     text-align: center;
 
 /* Estilo para los inputs */
 input[type="email"], input[type="password"] {
-    width: 90%; /* Ajustar ancho de los inputs */
+    width: 90%; 
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -157,7 +157,7 @@ input[type="email"], input[type="password"] {
 .login-btn {
     width: 100%;
     padding: 10px;
-    background-color: #4caf50; /* Verde (puedes cambiar según tus preferencias) */
+    background-color: #4caf50; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -167,7 +167,7 @@ input[type="email"], input[type="password"] {
 }
 
 .login-btn:hover {
-    background-color: #388e3c; /* Cambio de color en hover */
+    background-color: #388e3c; 
 }
 
 /* Mensaje de error */
@@ -182,7 +182,7 @@ input[type="email"], input[type="password"] {
 
 /* Enlace para registrarse */
 a {
-    color: #7b1fa2; /* Púrpura acorde a tu esquema de colores */
+    color: #7b1fa2; 
     text-decoration: none;
 }
 
@@ -190,15 +190,14 @@ a:hover {
     text-decoration: underline;
 }
 .info-box {
-    background-color: #d9e8ee; /* Color de fondo */
-    padding: 30px; /* Espaciado interno */
-    border-radius: 200px; /* Bordes redondeados */
-    text-align: center; /* Centrar texto */
-    margin: 80px 0; /* Espacio arriba y abajo */
+    background-color: #d9e8ee; 
+    padding: 30px; 
+    border-radius: 200px; 
+    text-align: center; 
+    margin: 80px 0; 
     
 }
 
 .footer-color {
-    background-color: #34839c; /* Cambia esto al color que desees */
-    color: white; /* Para el texto, si es necesario */
-}
+    background-color: #34839c; 
+    color: white; 
