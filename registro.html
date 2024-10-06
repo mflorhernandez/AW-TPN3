@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Styles/styles.css" rel="stylesheet">
     <title>Mi Tienda - Registro</title>
     
 </head>
-<body>
+<body class="bodyLogin">
     <h1>Registro de Usuario</h1>
-    <form action="index.html" method="GET"> 
+    <form id="registroForm" action="index.html" method="GET"> 
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
+        <input type="nombre" id="nombre" name="nombre" required>
         <br><br>
         <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="apellido" required>
+        <input type="apellido" id="apellido" name="apellido" required>
         <br><br>
         <label for="email">Correo Electrónico:</label>
         <input type="email" id="email" name="email" required>
@@ -24,7 +25,13 @@
         <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
         <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
         <br><br>
-        <button type="submit">Registrarse</button> 
+        <button class="btnInicio" type="submit">Registrarse</button> 
     </form>
+
+    <script src="./autenticacion.js"></script>
+    <script>
+    
+    document.getElementById('registroForm').addEventListener('submit', registrarUsuario);
+</script>
 </body>
 </html>
